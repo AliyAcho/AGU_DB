@@ -118,5 +118,3 @@ def exel_to_db():
                 s = s + f"{i}" + ","
             print(s)
             exec(f"{title}.create({s})")
-
-exel_to_db()
